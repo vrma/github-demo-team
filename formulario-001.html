@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/mis-estilos.css">
+  <script type="module" src="JS/formulario.js"></script>
 </head>
 
 <body>
   <h1>Formulario de Alta/Modificacion de Estudiantes</h1>
 
-  <form action="#" method="post">
+  <form action="#" method="post" id="formulario1">
     <label for="nombre">Nombre: </label>
     <input type="text" name="nombre" id="nombre" 
           placeholder="Su nombre aqui, porfa!!" autofocus required>
@@ -42,6 +43,31 @@
     </select>
     <input type="submit" value="Alta de Estudiante">
   </form>
+
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Primer Apellido</th>
+        <th>Segundo Apellido</th>
+        <th>Genero</th>
+        <th>Fecha de Alta</th>
+        <th>Facultad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jose</td>
+        <td>H</td>
+        <td>Gordo</td>
+        <td>fecha</td>
+        <td>Inf</td>
+        <td>Hombre</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </body>
 
 </html>
